@@ -10,7 +10,7 @@ The repository demonstrates the use of **7 Quick plots**. The example code is th
 
 # **Quick plot routines**
 
-are **one statement data plotting DISLIN routines**. 
+are **one statement data plotting [DISLIN](https://www.dislin.de/) routines**. 
 
 |          Plot routines           |         Description              |    
 | -------------------------------  | ---------------------------------|
@@ -55,7 +55,7 @@ The example codes are tested for
 
 ## **Output**
 
-The default output is console.
+The default output is the console.
 
 1. qplot  (X-array, Y-array, N )
 
@@ -99,37 +99,37 @@ The second code **main_1.f90** shows the use of routines to change the default o
   call TITLIN ('Free Energy', 2) 
 ```
 
-The above routines save the plot in **png** format and changes the background to **white**. The file name is **dislin.png** by default. The next file will have **dislin_1.png** and so on. The outputs are:
+The above routines save the plot in **png** format and change the background to **white**. The file name is **dislin.png** by default. The next file will have **dislin_1.png** and so on. The outputs are:
 
 1. qplot  (X-array, Y-array, N )
 
-![qplot](images/dislin.PNG)
+![qplot](images/dislin.png)
 
 2. qplsca (X-array, Y-array, N )
 
-![qplsca](images/dislin_1.PNG)
+![qplsca](images/dislin_1.png)
 
 3. qplclr ( Z, Nx, Ny ) 
 
-![qplclr](images/dislin_2.PNG)
+![qplclr](images/dislin_2.png)
 
 4. qplcon ( Z, Nx, Ny, Level )
 
-![qplcon](images/dislin_3.PNG)
+![qplcon](images/dislin_3.png)
 
 5. qplsur ( Z, Nx, Ny )
 
-![qplsur](images/dislin_4.PNG)
+![qplsur](images/dislin_4.png)
 
 6. qplbar ( Y-array, N) 
 
-![qplbar](images/dislin_5.PNG)
+![qplbar](images/dislin_5.png)
 
 7. qplpie ( Y-array, N) 
 
-![qplpie](images/dislin_6.PNG)
+![qplpie](images/dislin_6.png)
 
 
 ---
 
-**Date : 6 October 2023**
+**Date : 7 October 2023**
